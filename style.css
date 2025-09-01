@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2C3E50;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  color: #ecf0f1;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  color: #1abc9c;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #1abc9c, #16a085);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero h1 {
+  font-size: 48px;
+}
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn {
+  background: #fff;
+  color: #16a085;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #16a085;
+  color: white;
+}
+
+/* Sections */
+.content {
+  padding: 50px;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.content h2 {
+  color: #16a085;
+  margin-bottom: 15px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 12px;
+  background: #16a085;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+form button:hover {
+  background: #138d75;
+}
+
+/* Footer */
+footer {
+  background: #2C3E50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
